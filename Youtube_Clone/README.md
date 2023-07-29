@@ -26,9 +26,3 @@ To generate the `runner.app` file:
 
 1. Run `flutter clean`.
 2. Build iOS release with `flutter build ios --release`.
-
-Please ensure that there are no errors in the project by opening Xcode and running/building it.
-
-For support or inquiries, you can reach me via email: khandlakalpesh20@gmail.com
-
-Let's create something fantastic together!
