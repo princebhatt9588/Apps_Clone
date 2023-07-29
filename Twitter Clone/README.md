@@ -5,7 +5,7 @@
 
 In this project, you will work with a database file named `twitterClone.db`, which contains five tables: `user`, `follower`, `tweet`, `reply`, and `like`. Each table has specific columns as follows:
 
-**User Table**
+** User Table **
 
 | Column   | Type    |
 | -------- | ------- |
