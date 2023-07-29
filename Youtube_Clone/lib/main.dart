@@ -1,22 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_youtube_clone_app/screens/home_page.dart';
 
-/*
-Title:Entry Point of a App
-Purpose:Entry Point of a App
-Created By:Kalpesh Khandla
-*/  
-
 void main() {
-  runApp(MyApp());
+  runApp(YoutubeCloneApp());
 }
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class YoutubeCloneApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter YouTube Clone',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
