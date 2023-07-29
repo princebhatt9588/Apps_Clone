@@ -1,57 +1,34 @@
-# flutter_youtube_clone_app
+# Flutter YouTube Clone App
 
-flutter_youtube_clone_app project has "main.dart" as Entry Point.
+The **flutter_youtube_clone_app** project centers around the "main.dart" file as its entry point. It is designed to serve as a YouTube clone using Flutter.
 
-- [Hire Me](https://www.fiverr.com/kalpeshkhandla?up_rollout=true)
-- [Drop me your message](https://www.linkedin.com/in/kalpesh-khandla-11693541/)
-- [Drop me your message](https://twitter.com/khandla20)
+To generate an Android release, follow these steps:
 
-![flutter_youtube_clone_app](https://user-images.githubusercontent.com/48312656/118349503-8bcb1580-b4fd-11eb-9923-51b0c0c845c1.jpg)
+1. Generate FAT APK:
+   - Run `flutter clean`.
+   - Build the APK with `flutter build apk --release`.
 
+2. Generate Split APK's:
+   - Run `flutter clean`.
+   - Build the APKs per ABI with `flutter build apk --split-per-abi --release`.
 
-= = = To Generate Android release steps = = =
+For iOS release, follow these steps:
 
-Generate FAT APK 
-- flutter clean 
-- flutter build apk --release
+1. Set iOS deployment target.
 
-Generate split APK's 
-- flutter clean
-- flutter build apk --split-per-abi --release
+2. Set up Flutter SDK and get packages.
 
-= = = iOS release steps = = =
+3. Open `runner.xcworkspace` from the 'ios' folder.
 
-Set iOS deployment target
+4. Update version code in the YAML file.
 
-Follow below steps
+To generate the `runner.app` file:
 
-- setup flutter sdk
-- get packages
-- open runner.xcworkspace from ids folder
-- update version code in yaml
+1. Run `flutter clean`.
+2. Build iOS release with `flutter build ios --release`.
 
+Please ensure that there are no errors in the project by opening Xcode and running/building it.
 
-Bellow commands will generate the runner.app file
+For support or inquiries, you can reach me via email: khandlakalpesh20@gmail.com
 
-- flutter clean
-- flutter build ios --release
-
-
-Now open the xcode run/build to check if project has error
-
-Select Product -> Archive
-Follow the uploading steps
-
-𝐒𝐭𝐢𝐥𝐥 𝐍𝐞𝐞𝐝 𝐚 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐟𝐨𝐫 𝐅𝐥𝐮𝐭𝐭𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐦𝐞𝐧𝐭 ??
-
-- [Hire Me](https://www.fiverr.com/kalpeshkhandla?up_rollout=true)
-- [Drop me your message](https://www.linkedin.com/in/kalpesh-khandla-11693541/)
-- [Drop me your message](https://twitter.com/khandla20)
-
-
-𝐄𝐦𝐚𝐢𝐥 : 𝐤𝐡𝐚𝐧𝐝𝐥𝐚𝐤𝐚𝐥𝐩𝐞𝐬𝐡𝟐𝟎@𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦
-𝐋𝐞𝐭 𝐦𝐞 𝐤𝐧𝐨𝐰 𝐢𝐟 𝐢 𝐜𝐚𝐧 𝐚𝐬𝐬𝐢𝐬𝐭 𝐲𝐨𝐮 𝐰𝐢𝐭𝐡 𝐟𝐥𝐮𝐭𝐭𝐞𝐫 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭.
-
-𝐊𝐢𝐧𝐝 𝐑𝐞𝐠𝐚𝐫𝐝𝐬, 
-𝐊𝐚𝐥𝐩𝐞𝐬𝐡 𝐊𝐡𝐚𝐧𝐝𝐥𝐚
-
+Let's create something fantastic together!
